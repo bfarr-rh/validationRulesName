@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
-  <artifactId>validationRules</artifactId>
+  <artifactId>validationRulesName</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>validationRules</name>
+  <name>validationRulesName</name>
   <description></description>
   <dependencies>
     <dependency>
