@@ -5,7 +5,6 @@ import java.lang.Number;
 rule "NameLength"
 	dialect "mvel"
 	when
-		- with name longer than 40 characters long
 		There is an entity identified as $entity
 		- with name longer than 40 characters long
 	then
