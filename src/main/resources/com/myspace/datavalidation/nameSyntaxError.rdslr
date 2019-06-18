@@ -1,0 +1,13 @@
+package com.myspace.datavalidation;
+
+import java.lang.Number;
+
+rule "nameSyntaxError"
+	dialect "mvel"
+	when
+		There is an entity identified as $entity
+		- with name not matching the regular expression (([A-Z][a-z]+(-[A-Z][a-z]+)*)\\s+)+([A-Z][a-z]+(-[A-Z][a-z]+)*)$
+	then
+		Log name of this rule
+		Flag with validation error message Name syntax error.
+end

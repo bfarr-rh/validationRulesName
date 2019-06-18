@@ -1,0 +1,9 @@
+package com.myspace.datavalidation;
+
+import com.redhat.demo.abnclient.Client;
+
+global Client service;
+
+query "get_validation_error"
+    $error : ValidationError()
+end

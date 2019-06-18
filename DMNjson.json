@@ -1,0 +1,6 @@
+{
+  "model-namespace" : "https://github.com/kiegroup/drools/kie-dmn/_609AC0F3-6FCD-488B-A5DC-C7B68A6C9848",
+  "model-name" : "GivenRuleDMN",
+  "decision-name" : ["Decision-1"],
+  "dmn-context" : {"GivenName": "asaa"}
+}

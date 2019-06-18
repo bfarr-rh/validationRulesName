@@ -1,0 +1,15 @@
+package com.myspace.datavalidation;
+
+import java.lang.Number;
+
+rule "ABNValidation"
+	dialect "mvel"
+	salience -10
+	when
+		There is no validation error
+		There is an entity identified as $entity
+	then
+		Log name of this rule
+		Check if abn of entity identified as $entity is in the blacklist and save result in result
+		If result identified as result does not contain Active flag with validation error message message
+end
