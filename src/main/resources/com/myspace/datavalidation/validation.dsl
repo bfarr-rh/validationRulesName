@@ -2,6 +2,7 @@
 [condition][location] - with name matching the regular expression {expression}=name matches "{expression}"
 [condition][location] - with name not matching the regular expression {expression}=name not matches "{expression}"
 [condition][location] - with name longer than {number} characters long=name.length() > {number}
+[condition][location] - with name less than {number} characters long=name.length() < {number}
 [condition][location]There is no validation error=not ValidationError();
 [condition][location]There is validation error=ValidationError();
 [consequence][location]Log name of this rule=System.out.println("Executed Rule: " + drools.getRule().getName() );
