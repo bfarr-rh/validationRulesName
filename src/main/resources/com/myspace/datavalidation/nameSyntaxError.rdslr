@@ -6,7 +6,7 @@ rule "nameSyntaxError"
 	dialect "mvel"
 	when
 		There is an entity identified as $entity
-		- with name not matching the regular expression ^([A-Z][,a-z]+([-][A-Z][,a-z]+)*)*
+		- with name not matching the regular expression ^([A-Z][a-z]+([-][A-Z][a-z]+)*)*
 	then
 		Log name of this rule
 		Flag with validation error message Name only supports alphabetic and hyphen and commas as special character, start with upper case.
