@@ -9,5 +9,5 @@ rule "NameLength"
 		- with name longer than 40 characters long
 	then
 		Log name of this rule
-		Flag with validation error message Name is greater than 40 characters
+		Flag with validation error message Name only supports 40 char
 end
